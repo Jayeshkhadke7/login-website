@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile-content {
+    padding: 20px;
+}
+
+.user-details {
+    text-align: center;
+}
+
+.user-details p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.user-details p strong {
+    color: #333;
+    font-weight: bold;
+}
+
+.user-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>User Profile</header>
+        <div class="profile-content">
+            <!-- <img src="#" alt="User Photo" class="user-photo"> -->
+            <div class="user-details">
+                <p><strong>Name:</strong> <span id="user-name">Jayesh Khadke</span></p>
+                <p><strong>Email:</strong> <span id="user-email">abc123@gamil.com</span></p>
+                <p><strong>Phone Number:</strong> <span id="user-phone">123456879</span></p>
+                <p><strong>Registratio No.:</strong> <span id="user-id">21BCE1781</span></p>
+                <img class= "profilePic" id="profilePic" src="./assets/Jayesh.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </div>
+    <script src="script_profile.js"></script>
+</body>
+
+</html>
